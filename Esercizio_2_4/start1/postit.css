@@ -1,0 +1,92 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+}
+
+/*LAVAGNA*/
+div.lavagna {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #666;
+    padding: 5%;
+    gap: 3%;
+}
+
+
+/*POST-IT*/
+
+.postit h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.postit {
+    text-align: center;
+    padding: 5% 4%;
+    box-shadow: 0px 0px 10px 1px rgb(27, 27, 27);
+    margin-bottom: 3%;
+}
+
+.lavagna div:nth-child(1) {
+    background: rgb(247,248,198);
+    background: linear-gradient(180deg, #f7f8c6 85%, #b9b993 100%);
+    transform: rotate(-6deg);
+}
+
+.lavagna div:nth-child(2) { 
+    background: rgb(187,228,191);
+    background: linear-gradient(180deg, #bbe4bf 60%, #708873 100%);
+    transform: rotate(6deg);
+}
+
+.lavagna div:nth-child(3) {
+    background: rgb(193,194,235);
+    background: linear-gradient(180deg, #c1c2eb 60%, #7b7c95 100%);
+    transform: rotate(-6deg);
+}
+
+.lavagna div:nth-child(4) {
+    background: rgb(187,228,191);
+    background: linear-gradient(180deg, #bbe4bf 60%, #708873 100%);
+    transform: rotate(8deg);
+
+}
+
+.lavagna div:nth-child(5) {
+    background: rgb(247,248,198);
+    background: linear-gradient(180deg, #f7f8c6 60%, #b9b993 100%);
+    transform: rotate(-10deg);
+}
+
+.lavagna div:nth-child(6) {
+    background: rgb(193,194,235);
+    background: linear-gradient(180deg, #c1c2eb 60%, #7b7c95 100%);
+    transform: rotate(-10deg);
+}
+
+.lavagna div:nth-child(7) {
+    background: rgb(247,248,198);
+    background: linear-gradient(180deg, #f7f8c6 60%, #b9b993 100%); 
+    transform: rotate(-4deg);
+}
+
+.lavagna div:nth-child(8) {
+    background: rgb(187,228,191);
+    background: linear-gradient(180deg, #bbe4bf 60%, #708873 100%); 
+    transform: rotate(6deg);
+}
+
+/*ANIMATION*/
+.lavagna .postit:hover {
+    transform: scale(1.5) rotate(0deg);
+    transition: all 0.5s;
+    z-index: 2;
+}

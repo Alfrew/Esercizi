@@ -1,0 +1,11 @@
+L'esercizio ha lo scopo di utilizzare in maniera più approfondita i CSS per ricreare, per quanto possibile, ogni dettaglio (spazi, colori, grandezze, allineamenti, ecc.) presente nel modello grafico «layout-articolo.png». Il layout è stato creato per dispositivi mobili ed andrà testato per ora solo su schermi piccoli (fino a circa 450px-500px).
+
+Viene ripreso il file «articolo.html», realizzato in una precedente esercitazione.
+
+Materiali forniti in partenza:
+
+Il CSS di reset si trova nella cartella Assets->CSS->reset.css.
+Il CSS di fontawesome si trova nella cartella Assets->CSS->all.css
+I fonts di fontawesome si trovano nella cartella Assets->webfonts
+Il font usato per i testi è il Poppins e si può reperire su Google Fonts.
+Le immagini da usare (logo e sfondo) si trovano in Assets->img

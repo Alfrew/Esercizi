@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Features</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+            </svg>
+            <span class="fs-4">Simple header</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+    </header>
+    <main class="text-center">
+        <div class="container">
+            <h1>Benvenuti al quiz veloce</h1>
+            <section class="mb-5">
+                <h4>Domanda 1</h4>
+                <p>Re della savana</p>
+                <button type="button" class="btn btn-primary" onclick="Leone()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta1"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 2</h4>
+                <p>Animale dal collo lungo</p>
+                <button type="button" class="btn btn-primary" onclick="Giraffa()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta2"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 3</h4>
+                <p>Animale a strisce</p>
+                <button type="button" class="btn btn-primary" onclick="Zebra()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta3"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 4</h4>
+                <p>Animale dalla folta criniera</p>
+                <button type="button" class="btn btn-primary" onclick="Leone2()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta4"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 5</h4>
+                <p>Animale veloce</p>
+                <button type="button" class="btn btn-primary" onclick="Ghepardo()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta5"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 6</h4>
+                <p>4 + 2 =</p>
+                <button type="button" class="btn btn-primary" onclick="Somma()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta6"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 7</h4>
+                <p>4 - 2 =</p>
+                <button type="button" class="btn btn-primary" onclick="Sottrazione()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta7"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 8</h4>
+                <p>4 &gt; 2, è corretto?</p>
+                <button type="button" class="btn btn-primary" onclick="Vero()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta8"></p>
+            </section>
+            <section class="mb-5">
+                <h4>Domanda 9</h4>
+                <p>4 &lt; 2, è corretto?</p>
+                <button type="button" class="btn btn-primary" onclick="Falso()">Risposta</button>
+                <p class="bg-success bg-opacity-75 text-white d-inline p-1 rounded" id="risposta9"></p>
+            </section>
+        </div>
+
+
+
+
+
+
+    </main>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/file.js"></script>
+    <script src="assets/js/jon.js"></script>
+
+</body>
+
+</html>

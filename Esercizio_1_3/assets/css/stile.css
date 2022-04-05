@@ -1,0 +1,107 @@
+/* IMPOSTAZIONI GENERALI */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a {
+    color: rgb(190, 50, 50);
+    font-weight: bold;
+}
+
+
+strong {
+    color: rgb(0, 145, 182);
+    font-weight: normal;
+}
+
+hr {
+    border: 1px dashed;
+}
+
+mark{
+    color: white;
+    background-color: rgb(0, 145, 182);
+}
+
+/* HEADER */
+header {
+    color: white;
+    font-size: 1em;
+    font-variant: small-caps;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(0, 145, 182);
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 5px solid rgb(0, 110, 138);
+    padding: 10px;
+}
+header span {
+    background-color: white;
+    color: rgb(0, 145, 182);
+}
+
+header h2{
+    color: black;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+/* MAIN */
+
+/* ELEMENTI NEL MAIN */
+main h2 {
+    color: rgb(0, 145, 182);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img{
+    outline-offset: 5px;
+    outline: 1px solid lightgray;
+}
+
+address {
+    font-style: normal;
+}
+
+blockquote p {
+    background-color: lightgray;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10%;
+}
+
+em, i {
+    font-style: normal;
+}
+
+
+
+/* FOOTER */
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+
+    border-top: 5px solid rgb(0, 110, 138);
+}
+
+footer kbd {
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer small {
+    color: grey;
+}

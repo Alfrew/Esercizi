@@ -1,0 +1,58 @@
+L'esercizio prevede la creazione di una pagina HTML da zero, inserendo i tag fondamentali.
+
+Si dovranno poi utilizzare i primi tag semantici imparati, applicandoli ai seguenti testi che simulano una pagina "Chi sono" o "Profilo", tipica dei siti personali. Andranno utilizzati i seguenti materiali a corredo nella cartella «assets»:
+
+3 icone SVG
+1 immagine jpg
+1 file PDF
+
+E’ consigliabile effettuare un’analisi preventiva dei contenuti, associando prima su carta (o altrove) ogni tag da applicare al relativo testo e poi passare alla scrittura via editor del codice ipotizzato.
+Titolo della pagina: Il mio curriculum vitae - Chi sono
+
+Descrizione pagina: Il mio curriculum: profilo, competenze ed esperienze maturate ad oggi in ambito professionale.
+
+Contenuti pagina: 
+
+Curriculum vitae - Mario Rossi
+Web developer & Consulente SEO
+
+Info personali
+-IMMAGINE profilo.png
+-ICONA- Data di nascita: 22-10-1993
+-ICONA- Telefono: 06-10203040
+-ICONA- Whatsapp: 06-10203040
+Su di me:
+"Sembra sempre impossibile, finché non viene fatto." (Nelson Mandela Book)
+Presentazione
+Lavoro come sviluppatore Front End in qualità di libero professionista secondo il motto "Fai della tua passione un lavoro e non lavorerai nemmeno per 1 giorno". Collaboro con aziende pubbliche e private su progetti in fase di startup, sia come sviluppatore che come consulente SEO per partire con il piede giusto.
+
+Formazione
+Diploma scientifico
+Conseguito nel 2010 con votazione 100/100 presso l'istituto Righi.
+
+Master Web Developer
+Conseguito nel 2016 presso Epicode School -LINK-.
+Riconosciuto in via ufficiale per crediti formativi. Il certificato è stato rinnovato nel 2019 tramite nuovo esame.
+Competenze
+Conoscenze tecniche
+Le conoscenze nel mio bagaglio tecnico sono le seguenti:
+<HTML>
+CSS
+Javascript/Typescript
+Angular
+SEO tecnica
+
+Conoscenze operative
+Sviluppo web
+Dal PSD all'HTML, sviluppo di template per CMS
+Ottimizzazione CSS
+Pulizia di codice inusato, minify e verifica compatibilità
+Ottimizzazione SEO
+Copywriting, ottimizzazioni tecniche on-site, ottimizzazioni off-site
+Per stampare questa pagina premere i tasti Ctrl + P
+oppure
+Scarica il mio C.V. -LINK-
+
+Autorizzo il trattamento dei dati personali secondo il decreto vigente
+
+Copyright ©2021 - Tutti i diritti riservati
