@@ -1,0 +1,15 @@
+ul {
+    padding: 0px;
+}
+li {
+    position: relative;
+    display: block;
+}
+li:hover {
+    background-color: #eee;
+}
+li span {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
